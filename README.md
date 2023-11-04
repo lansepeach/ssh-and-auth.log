@@ -8,7 +8,9 @@
 
 
 下载sshlog.py文件
+
 wget https://raw.githubusercontent.com/lansepeach/ssh-and-auth.log/main/sshlog.py
+
 需要在ubuntu下安装python
 
 运行脚本
