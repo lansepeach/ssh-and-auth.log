@@ -15,3 +15,8 @@ wget https://raw.githubusercontent.com/lansepeach/ssh-and-auth.log/main/sshlog.p
 
 运行脚本
 sudo python3 sshlog.py  
+
+
+## 效果
+
+![image](https://github.com/lansepeach/ssh-and-auth.log/assets/9766240/4ac45340-7fc8-445e-a222-189ad1bde1a3)
