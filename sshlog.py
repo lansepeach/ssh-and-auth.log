@@ -18,7 +18,7 @@ EXCLAMATION_MARK = "❗"
 
 for log_file_path in log_file_paths:
     try:
-        with open(log_file_path, "r") as auth_log:
+        with open(log_file_path, "r", encoding='utf-8', errors='ignore') as auth_log:
             for line in auth_log:
                 if "sshd" in line:
                     # 尝试匹配成功和失败的登录记录
